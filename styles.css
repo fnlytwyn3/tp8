@@ -1,0 +1,83 @@
+body
+{
+  background-color: #886444;
+}
+
+
+
+/* Small devices  */
+@media only screen and (min-width: 575px) 
+{
+   details
+ 
+  {
+    display: inline;
+    position: relative;
+    background-color: #d3dbe4;
+  }
+  
+  
+  div#Batter 
+  {
+  background-image: url(none);
+  position: relative;
+  top: 0;
+  left: 0;
+  
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  }
+  
+  #Batter h1
+  {
+  font-family: Times New Roman;
+  color: #181008;
+  margin: 0;
+  padding: 30vh 0 0 0;
+  }
+}
+
+/* Large devices  */
+@media only screen and (min-width: 992px) 
+{
+ details{
+    display: inline-block;
+    position: relative;
+    background-color: #a79a90;
+  }
+
+ div#Batter 
+  {
+  background-image: url(none);
+  position: relative;
+  top: 0;
+  left: 0;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+
+  }
+  
+  #Batter h1
+  {
+  font-family: Times New Roman;
+  color: #181008;
+  margin: 0;
+  padding: 0 0 0 0;
+  }
+  }
+h4 {
+
+  margin-bottom: 0;
+}
+
+ul, ol {
+  margin-top: 0;
+}
+
+.copyright {
+  font-family: Times New Roman;
+  font-size: 9px;
+  font-style: italic;
+}
