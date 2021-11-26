@@ -1,75 +1,8 @@
-body
-{
-  background-color: #886444;
-}
-
-
-
-/* Small devices  */
-@media only screen and (min-width: 575px) 
-{
-   details
- 
-  {
-    display: inline;
-    position: relative;
-    background-color: #d3dbe4;
-  }
-  
-  
-  div#Batter 
-  {
-  background-image: url(none);
-  position: relative;
-  top: 0;
-  left: 0;
-  
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-  }
-  
-  #Batter h1
-  {
-  font-family: Times New Roman;
-  color: #181008;
-  margin: 0;
-  padding: 30vh 0 0 0;
-  }
-}
-
-/* Large devices  */
-@media only screen and (min-width: 992px) 
-{
- details{
-    display: inline-block;
-    position: relative;
-    background-color: #a79a90;
-  }
-
- div#Batter 
-  {
-  background-image: url(none);
-  position: relative;
-  top: 0;
-  left: 0;
-  background-size: cover;
-  background-attachment: fixed;
-  text-align: center;
-
-  }
-  
-  #Batter h1
-  {
-  font-family: Times New Roman;
-  color: #181008;
-  margin: 0;
-  padding: 0 0 0 0;
-  }
-  }
 h4 {
-
   margin-bottom: 0;
+  font-family: Times New Roman;
+  color: #d6a782;
+  font-size: 20px;
 }
 
 ul, ol {
@@ -79,5 +12,113 @@ ul, ol {
 .copyright {
   font-family: Times New Roman;
   font-size: 9px;
-  font-style: italic;
+}
+
+body {
+  background-color: #886444;
+    padding: 0;
+    margin: 0;
+}
+
+div#cookieHeader {
+  font-family: Times New Roman;
+  color: white;
+  text-align: center;
+  padding-top: 25vh;
+  width: 100vw;
+  height: 50vh;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top center;
+  background-image: none; 
+
+}
+
+#cookieHeader.tp6 {
+  font-size: 50px;
+    color: white;
+}
+
+ul, ol {
+  display: none; 
+}
+
+ul.showMe,
+ol.showMe {
+  display: block;
+}
+
+#contributor {
+  DISPLAY: BLOCK;
+  width: 100%;
+}
+
+#menu {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100vw;
+  height: 3.1rem;
+  background: #533122;
+}
+
+#menu a{
+  color:#d6a782;
+  text-decoration:none;
+  font-family: Times New Roman;
+  white-space:nowrap;
+  font-size:23px;
+  line-height:0.5;
+  padding: 1rem;
+}
+
+
+/* this is mobile-first CSS for 3 rows */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+div {
+  width: 100vw;
+  padding: 2vw;
+}
+
+#ingredients {  
+}
+
+#equipment {
+ 
+}
+
+#directions {
+ 
+}
+
+h4 {
+  font-size: 30px;
+}
+
+#footer {
+  font-size: 10px;
+  color: black;
+  
+}
+
+/* responsive design */
+@media (orientation:landscape) {
+  
+  div {
+    width: calc(100vw/3 - 1vw);
+    float: left;
+  }
+  
+  h4 {
+    font-size: 20px;
+  }
 }
